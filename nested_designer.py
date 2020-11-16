@@ -15,7 +15,7 @@ import time
 
 @lru_cache(maxsize=1000)
 def screenshot(invoice, name):
-    # region (left_side, top_side, right_side, bottom_side)
+    #region (left_side, top_side, right_side, bottom_side)
     bill_left_side = screen_width - 713
     bill_right_side = screen_width - 661
     bill_top_side = screen_height - 625
